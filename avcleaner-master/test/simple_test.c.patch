@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define TCHAR char
+//char test[100] = "V'SLELI YUWKNID DI LEPCG JIYFY TQ NAOJVUY";
+
+const char  hid_core_l_AS5A8N6bQqpq[] = {'\x63','\x6f','\x72','\x65','\x5f','\x6c','\x6f','\x61','\x64','\x6c','\x69','\x62',0};
+
+const char  hid_reques_hGRZnXCPEwJx[] = {'\x72','\x65','\x71','\x75','\x65','\x73','\x74','\x5f','\x63','\x6f','\x72','\x65','\x5f','\x6c','\x6f','\x61','\x64','\x6c','\x69','\x62',0};
+
+const char  hid_core_e_4bnB4beWiTqW[] = {'\x63','\x6f','\x72','\x65','\x5f','\x65','\x6e','\x75','\x6d','\x65','\x78','\x74','\x63','\x6d','\x64',0};
+
+const char  hid_reques_WfIQin1ls7AL[] = {'\x72','\x65','\x71','\x75','\x65','\x73','\x74','\x5f','\x63','\x6f','\x72','\x65','\x5f','\x65','\x6e','\x75','\x6d','\x65','\x78','\x74','\x63','\x6d','\x64',0};
+
+const char  hid_core_m_KHMGnY4xYecV[] = {'\x63','\x6f','\x72','\x65','\x5f','\x6d','\x61','\x63','\x68','\x69','\x6e','\x65','\x5f','\x69','\x64',0};
+
+const char  hid_reques_VRf0J1a1UmSC[] = {'\x72','\x65','\x71','\x75','\x65','\x73','\x74','\x5f','\x63','\x6f','\x72','\x65','\x5f','\x6d','\x61','\x63','\x68','\x69','\x6e','\x65','\x5f','\x69','\x64',0};
+
+const char  hid_core_g_z0v7XK620DSj[] = {'\x63','\x6f','\x72','\x65','\x5f','\x67','\x65','\x74','\x5f','\x73','\x65','\x73','\x73','\x69','\x6f','\x6e','\x5f','\x67','\x75','\x69','\x64',0};
+
+const char  hid_reques_t83hck5pMPxq[] = {'\x72','\x65','\x71','\x75','\x65','\x73','\x74','\x5f','\x63','\x6f','\x72','\x65','\x5f','\x67','\x65','\x74','\x5f','\x73','\x65','\x73','\x73','\x69','\x6f','\x6e','\x5f','\x67','\x75','\x69','\x64',0};
+char *customCommands[] =
+{
+	hid_core_l_AS5A8N6bQqpq,
+    hid_reques_hGRZnXCPEwJx,
+	hid_core_e_4bnB4beWiTqW,
+    hid_reques_WfIQin1ls7AL,
+	hid_core_m_KHMGnY4xYecV,
+    hid_reques_VRf0J1a1UmSC,
+	hid_core_g_z0v7XK620DSj,
+    hid_reques_t83hck5pMPxq
+};
+
+char test[] = "J'ADORE ECOUTER LA RADIO TOUTE LA JOURNEE";
+
+char test2[] = "Test: several strings.";
+int main(int argc, char** argv)
+{
+    
+	const char  hid________OM6aX5YrGCS0[] = {'\x33','\x31','\x33','\x33','\x37','\x31','\x33','\x33','\x37',0};
+int a = atoi(hid________OM6aX5YrGCS0);
+
+    printf("%s\n", test);
+    char test3[200];
+    strcpy(test3, test2);
+    printf("%s\n", test3);
+    printf("%d\n", a);
+    return 0;
+}
